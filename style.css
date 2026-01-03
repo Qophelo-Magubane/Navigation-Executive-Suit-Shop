@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+  background-color: cornsilk;
+  color: #b22531;
+  
+}
+
+.navbar{
+  background-color: #00b1b959;
+  color: #909fa9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar .logo{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: darkred;
+  
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: #f5f5f5;
+
+}
+
+.banner{
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 4rem;
+  overflow: hidden;
+  color: white;
+}
+
+.bg-image{
+  
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url('suits/photo-1580657018950-c7f7d6a6d990.jpeg') no-repeat center center/cover;
+  z-index: 0;
+  filter: brightness(0.6);
+}
+
+.banner-text{
+  position: relative;
+  z-index: 1;
+}
+
+.banner-text h1{
+  font-size: 3rem;
+  color: #b22531;
+  
+}
+
+.banner-text p{
+  font-size: 1.3rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.banner-btn{
+  background-color: #b22531;
+  color: #123;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.product-section{
+  padding: 3rem 2rem;
+}
+
+.section-tittle{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.product-grid{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card{
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, alpha);
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.product-card img{
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h3{
+  margin: 0.8rem 0 0.4rem;
+}
+
+.product-card p{
+  color: #002;
+  margin-bottom: 1rem;
+}
+
+.product-card button{
+  background-color: #b22531;
+  border: none;
+  padding: 0.6rem 1rem;
+  color: #222;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer{
+  background-color: #299;
+  color: #111;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer .socials a{
+  color: #b22531;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
